@@ -25,6 +25,7 @@ const Layout = () => {
                         </div>
                         <div className="flex items-center space-x-4">
                             <Link to="/" className="text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
+                            <Link to="/chatgpt-app" className="text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">ChatGPT App</Link>
                             <Link to="/privacy" className="text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">Privacy</Link>
                             <Link to="/terms" className="text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">Terms</Link>
                             <button
